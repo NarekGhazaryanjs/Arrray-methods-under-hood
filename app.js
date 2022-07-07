@@ -52,12 +52,18 @@
 
 
 // Array indexof method under hood
-// Array.prototype.myIndexOf = function(item) {
-//     for(let i = 0; i < this.length; i++) {
-//         if(this[i] === item) {
-//             return i
-//         }
-//     }
-// }
+Array.prototype.myIndexOf = function(item) {
+    let index = -1
+    for(let i = 0; i < this.length; i++) {
+        if(this[i] === item) {
+            index = i
+            return index
+        }
+    }
+    return index
+}
 
-// const arr = [1,8,5,5,5]
+const arr = [1,8,5,5,5];
+console.log(arr.myIndexOf(10))
+
+
