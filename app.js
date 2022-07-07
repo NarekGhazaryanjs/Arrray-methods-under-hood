@@ -27,5 +27,12 @@
 // let array = [1,2,3];
 // let maped = array.myMap(el => el  * 10)
 
+// Array pop method under hood
+// Array.prototype.myPop = function() {
+//   const popedItem = this[this.length - 1];
+//   this.length = this.length - 1;
+//   return popedItem
+// }
 
-
+// const array = [1,5,10];
+// let poped = array.myPop();
