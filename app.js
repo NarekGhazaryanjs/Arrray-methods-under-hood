@@ -49,3 +49,15 @@
 
 // let array = [5];
 // array.myPush(6, 8);
+
+
+// Array indexof method under hood
+// Array.prototype.myIndexOf = function(item) {
+//     for(let i = 0; i < this.length; i++) {
+//         if(this[i] === item) {
+//             return i
+//         }
+//     }
+// }
+
+// const arr = [1,8,5,5,5]
