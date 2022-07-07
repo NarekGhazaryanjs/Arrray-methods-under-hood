@@ -79,3 +79,17 @@
 // }
 
 // const arr = [1, 8, 5, 5, 5];
+
+
+// Array includes method under hood
+// Array.prototype.myIncludes = function(item) {
+//     let result = false
+//     for (let i = 0; i < this.length; i++) {
+//         if (this[i] === item) {
+//             result = true
+//         }
+//     }
+//     return result
+// }
+
+// let array = [1,5,10];
